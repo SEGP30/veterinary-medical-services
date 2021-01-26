@@ -1,6 +1,6 @@
-import { Unit_Of_Work } from "../../Domain/Infrastructure/Base/unit_Of_Work";
+import { Unit_Of_Work } from "../../Infrastructure/Base/unit_Of_Work";
 import { Product } from "../../Domain/Entity/product";
-import { Product_Repository } from "../../Domain/Infrastructure/Repositories/product_Repository";
+import { Product_Repository } from "../../Infrastructure/Repositories/product_Repository";
 
 
 export class Register_Product_Service{

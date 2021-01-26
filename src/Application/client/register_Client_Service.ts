@@ -1,6 +1,6 @@
-import { Unit_Of_Work } from "../../Domain/Infrastructure/Base/unit_Of_Work";
+import { Unit_Of_Work } from "../../Infrastructure/Base/unit_Of_Work";
 import { Person } from "../../Domain/Entity/person";
-import { Client_Repository } from "../../Domain/Infrastructure/Repositories/client_Repository";
+import { Client_Repository } from "../../Infrastructure/Repositories/client_Repository";
 import { Client } from "../../Domain/Entity/client";
 
 export class Register_Client_Service{

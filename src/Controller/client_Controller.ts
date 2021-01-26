@@ -1,5 +1,5 @@
 import { Body, Controller, Post } from "@nestjs/common";
-import { Unit_Of_Work } from "../Domain/Infrastructure/Base/unit_Of_Work";
+import { Unit_Of_Work } from "../Infrastructure/Base/unit_Of_Work";
 import { Register_Client_Request, Register_Client_Service } from "../Application/client/register_Client_Service";
 
 @Controller('client')

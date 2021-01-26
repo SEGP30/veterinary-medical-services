@@ -1,6 +1,6 @@
-import { Unit_Of_Work } from "../../Domain/Infrastructure/Base/unit_Of_Work";
+import { Unit_Of_Work } from "../../Infrastructure/Base/unit_Of_Work";
 import { Pet } from "../../Domain/Entity/pet";
-import { Pet_Repository } from "../../Domain/Infrastructure/Repositories/pet_Repository";
+import { Pet_Repository } from "../../Infrastructure/Repositories/pet_Repository";
 
 export class Register_Pet_Service{
 

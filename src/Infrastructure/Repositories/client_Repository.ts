@@ -2,8 +2,8 @@ import { Injectable } from "@nestjs/common";
 import { EntityRepository } from "typeorm";
 import { Client_Orm } from "../Database/Orm/client_Orm";
 import { Generic_Repository } from "../Base/generic_Repository";
-import { Person } from "../../Entity/person";
-import { Client } from "../../Entity/client";
+import { Person } from "../../Domain/Entity/person";
+import { Client } from "../../Domain/Entity/client";
 
 @Injectable()
 @EntityRepository(Client_Orm)

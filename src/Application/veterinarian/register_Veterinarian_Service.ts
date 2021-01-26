@@ -1,5 +1,5 @@
-import { Unit_Of_Work } from "../../Domain/Infrastructure/Base/unit_Of_Work";
-import { Veterinarian_Repository } from "../../Domain/Infrastructure/Repositories/veterinarian_Repository";
+import { Unit_Of_Work } from "../../Infrastructure/Base/unit_Of_Work";
+import { Veterinarian_Repository } from "../../Infrastructure/Repositories/veterinarian_Repository";
 import { Person } from "../../Domain/Entity/person";
 import { Veterinarian } from "../../Domain/Entity/veterinarian";
 

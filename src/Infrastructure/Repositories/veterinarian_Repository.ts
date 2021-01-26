@@ -2,8 +2,8 @@ import { Injectable } from "@nestjs/common";
 import { EntityRepository } from "typeorm";
 import { Generic_Repository } from "../Base/generic_Repository";
 import { Veterinarian_Orm } from "../Database/Orm/veterinarian_Orm";
-import { Person } from "../../Entity/person";
-import { Veterinarian } from "../../Entity/veterinarian";
+import { Person } from "../../Domain/Entity/person";
+import { Veterinarian } from "../../Domain/Entity/veterinarian";
 
 
 @Injectable()

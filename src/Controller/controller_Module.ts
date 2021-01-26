@@ -1,5 +1,5 @@
 import { Module } from "@nestjs/common";
-import { Infrastructure_Module } from "../Domain/Infrastructure/infrastructure_module";
+import { Infrastructure_Module } from "../Infrastructure/infrastructure_module";
 import { Application_Module } from "../Application/application_Module";
 import { Client_Controller } from "./client_Controller";
 import { Veterinarian_Controller } from "./veterinarian_Controller";
